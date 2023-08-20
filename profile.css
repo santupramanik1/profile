@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    color:white;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color:rgba(11, 229, 149, 0.768);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card{
+    width:300px;
+    height:500px;
+    background-color:rgb(18, 18, 83);
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+img{
+    width:150px;
+    height:150px;
+    background-size:cover;
+    border-radius:50%;
+    box-shadow:0px 0px 5px 5px rgb(121, 117, 117);
+}
+
+h1,h2{
+    text-align:center;
+}
+h2{
+    color:rgba(14, 203, 159, 0.889);
+}
+
+li{
+    display:inline-block;
+    font-size:30px;
+    margin-right:20px;
+   
+    
+}
+
+i:hover{
+    transition:.5s;
+    transform:translateY(-5px);
+    cursor:pointer;
+}
+
+/*------------------------html--------------------------*/
+.html{
+    display:flex;
+    gap:120px;
+}
+.line1{
+    width:200px;
+}
+.first{
+    width:0%;
+    height:20px;
+    background-color:white;
+    border-radius:2px;
+    animation:4s linear 0s 1 normal forwards running long2;
+
+}
+@keyframes long2{
+    100%{
+     width:80%;
+    }
+ }
+
+/*-------------------css----------------------------------*/
+.css{
+    display:flex;
+    gap:140px;
+}
+.line2{
+    width:200px;
+}
+.second{
+    width:0%;
+    height:20px;
+    background-color:white;
+    border-radius:2px;
+    animation:4s linear 0s 1 normal forwards running long1;
+
+}
+@keyframes long1{
+    100%{
+     width:70%;
+    }
+ }
+
+ /*-----------------------c---------------------------*/
+
+ .c{
+    display:flex;
+    gap:160px;
+}
+.line3{
+    width:200px;
+}
+.third{
+    width:0%;
+    height:20px;
+    background-color:white;
+    border-radius:2px;
+    animation:4s linear 0s 1 normal forwards running long3;
+
+}
+@keyframes long3{
+    100%{
+     width:85%;
+    }
+}
